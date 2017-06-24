@@ -18,7 +18,7 @@ namespace FibonacciNumbers
                     {
                         int FibonacciNumb1 = 0, FibonacciNumb2 = 1, FibonacciNumbN = 1;
                         bool checkFibonacci = false;
-                        for (int i = 0; i < Number; i++)
+                        for (int i = 0; i <= Number; i++)
                         {
                             FibonacciNumb1 = FibonacciNumb2;
                             FibonacciNumb2 = FibonacciNumbN;
