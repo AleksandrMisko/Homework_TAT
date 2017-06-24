@@ -7,6 +7,11 @@ namespace FibonacciNumbers
     {
         static void Main(string[] args)
         {
+            bool Working = true;
+            while (Working)
+            {
+                Working = false;
+            }
         }
     }
 }
