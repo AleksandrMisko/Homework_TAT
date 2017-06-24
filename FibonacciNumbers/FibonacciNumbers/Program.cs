@@ -3,7 +3,7 @@
 
 namespace FibonacciNumbers
 {
-    class Program
+    class CheckFibonacciNumber
     {
         static void Main(string[] args)
         {
