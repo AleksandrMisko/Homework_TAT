@@ -15,6 +15,8 @@ namespace FibonacciNumbers
                 }
                 catch (Exception)
                 {
+                    Console.WriteLine("Error. Invalid input. Try it adain.");
+                    continue;
                 }
                 Working = false;
             }
