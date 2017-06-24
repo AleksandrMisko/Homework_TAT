@@ -16,14 +16,14 @@ namespace FibonacciNumbers
                     int Number = int.Parse(Console.ReadLine());
                     if (Number >= 0)
                     {
-                        int FibonacciNumb1 = 0, FibonacciNumb2 = 1, FibonacciNumbN = 1;
+                        int FNumb1 = 0, FNumb2 = 1, FNumbN = 1;
                         bool checkFibonacci = false;
                         for (int i = 0; i <= Number; i++)
                         {
-                            FibonacciNumb1 = FibonacciNumb2;
-                            FibonacciNumb2 = FibonacciNumbN;
-                            FibonacciNumbN = FibonacciNumb1 + FibonacciNumb2;
-                            if (Number == FibonacciNumbN || Number == 1)
+                            FNumb1 = FNumb2;
+                            FNumb2 = FNumbN;
+                            FNumbN = FNumb1 + FNumb2;
+                            if (Number == FNumbN || Number == 1)
                             {
                                 checkFibonacci = true;
                                 break;
