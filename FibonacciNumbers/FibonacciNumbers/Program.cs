@@ -10,6 +10,12 @@ namespace FibonacciNumbers
             bool Working = true;
             while (Working)
             {
+                try
+                {
+                }
+                catch (Exception)
+                {
+                }
                 Working = false;
             }
         }
