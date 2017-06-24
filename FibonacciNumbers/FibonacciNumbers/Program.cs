@@ -12,6 +12,8 @@ namespace FibonacciNumbers
             {
                 try
                 {
+                    Console.Write("Enter a number: ");
+                    int Number = int.Parse(Console.ReadLine());
                 }
                 catch (Exception)
                 {
