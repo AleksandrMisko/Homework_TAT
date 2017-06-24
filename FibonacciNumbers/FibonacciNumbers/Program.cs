@@ -14,6 +14,14 @@ namespace FibonacciNumbers
                 {
                     Console.Write("Enter a number: ");
                     int Number = int.Parse(Console.ReadLine());
+                    if (Number >= 0)
+                    {
+                    }
+                    else
+                    {
+                        Console.WriteLine("It is a negative number. Try again");
+                        continue;
+                    }
                 }
                 catch (Exception)
                 {
