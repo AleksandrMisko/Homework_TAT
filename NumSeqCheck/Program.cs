@@ -10,6 +10,9 @@ namespace NumSeqCheck
             bool value = true;
             while (value)
             {
+                Console.Write("Enter size of the sequence = ");
+                String sizeArr = Console.ReadLine();
+                int size = int.Parse(sizeArr);
                 value = false;
             }
         }
