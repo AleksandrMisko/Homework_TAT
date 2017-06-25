@@ -15,35 +15,43 @@ namespace NumSeqCheck
                 int size = int.Parse(sizeArr);
                 int[] Aarray = new int[size];
                 string strAr;
-                for (int i = 0; i < size; i++)
+                if (size <= 1)
                 {
-                    Console.Write("Enter " + (i + 1) + " element of the sequence = ");
-                    strAr = Console.ReadLine();
-                    Aarray[i] = int.Parse(strAr);
-                }
-                bool cheсk = true;
-                for (int i = 1; i < size; i++)
-                {
-                    if (Aarray[i] >= Aarray[i - 1])
-                    {
-                        cheсk = true;
-                    }
-                    if (Aarray[i] < Aarray[i - 1])
-                    {
-                        cheсk = false;
-                        break;
-                    }
-                }
-                if (cheсk == false)
-                {
-                    Console.WriteLine("This sequence is decreasing ");
+                    Console.WriteLine("Are you seriously? Let's enter the size of the SEQUENCE.");
+                    continue;
                 }
                 else
                 {
-                    Console.WriteLine("This sequence is nondecreasing ");
+                    for (int i = 0; i < size; i++)
+                    {
+                        Console.Write("Enter " + (i + 1) + " element of the sequence = ");
+                        strAr = Console.ReadLine();
+                        Aarray[i] = int.Parse(strAr);
+                    }
+                    bool cheсk = true;
+                    for (int i = 1; i < size; i++)
+                    {
+                        if (Aarray[i] >= Aarray[i - 1])
+                        {
+                            cheсk = true;
+                        }
+                        if (Aarray[i] < Aarray[i - 1])
+                        {
+                            cheсk = false;
+                            break;
+                        }
+                    }
+                    if (cheсk == false)
+                    {
+                        Console.WriteLine("This sequence is decreasing ");
+                    }
+                    else
+                    {
+                        Console.WriteLine("This sequence is nondecreasing ");
+                    }
+                    Console.ReadKey();
+                    value = false;
                 }
-                Console.ReadKey();
-                value = false;
             }
         }
     }
