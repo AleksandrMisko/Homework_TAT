@@ -1,0 +1,5 @@
+F:\ТАТ\Homework_TAT\ChangeNumberTuttiFrutti\ChangeNumberTuttiFrutti\bin\Debug\ChangeNumberTuttiFrutti.exe.config
+F:\ТАТ\Homework_TAT\ChangeNumberTuttiFrutti\ChangeNumberTuttiFrutti\bin\Debug\ChangeNumberTuttiFrutti.exe
+F:\ТАТ\Homework_TAT\ChangeNumberTuttiFrutti\ChangeNumberTuttiFrutti\bin\Debug\ChangeNumberTuttiFrutti.pdb
+F:\ТАТ\Homework_TAT\ChangeNumberTuttiFrutti\ChangeNumberTuttiFrutti\obj\Debug\ChangeNumberTuttiFrutti.exe
+F:\ТАТ\Homework_TAT\ChangeNumberTuttiFrutti\ChangeNumberTuttiFrutti\obj\Debug\ChangeNumberTuttiFrutti.pdb

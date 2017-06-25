@@ -1,0 +1,5 @@
+F:\ТАТ\Homework_TAT\FibonacciNumbers\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe.config
+F:\ТАТ\Homework_TAT\FibonacciNumbers\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe
+F:\ТАТ\Homework_TAT\FibonacciNumbers\FibonacciNumbers\bin\Debug\FibonacciNumbers.pdb
+F:\ТАТ\Homework_TAT\FibonacciNumbers\FibonacciNumbers\obj\Debug\FibonacciNumbers.exe
+F:\ТАТ\Homework_TAT\FibonacciNumbers\FibonacciNumbers\obj\Debug\FibonacciNumbers.pdb
