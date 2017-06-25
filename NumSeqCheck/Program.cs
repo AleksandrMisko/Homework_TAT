@@ -7,7 +7,11 @@ namespace NumSeqCheck
     {
         static void Main(string[] args)
         {
-
+            bool value = true;
+            while (value)
+            {
+                value = false;
+            }
         }
     }
 }
