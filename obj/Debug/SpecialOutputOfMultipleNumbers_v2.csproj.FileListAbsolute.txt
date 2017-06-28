@@ -1,5 +1,0 @@
-F:\ТАТ\Homework_TAT\bin\Debug\SpecialOutputOfMultipleNumbers_v2.exe.config
-F:\ТАТ\Homework_TAT\bin\Debug\SpecialOutputOfMultipleNumbers_v2.exe
-F:\ТАТ\Homework_TAT\bin\Debug\SpecialOutputOfMultipleNumbers_v2.pdb
-F:\ТАТ\Homework_TAT\obj\Debug\SpecialOutputOfMultipleNumbers_v2.exe
-F:\ТАТ\Homework_TAT\obj\Debug\SpecialOutputOfMultipleNumbers_v2.pdb
