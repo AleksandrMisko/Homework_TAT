@@ -9,3 +9,4 @@ F:\ТАТ\Homework_TAT\Homework_TAT\NumSeqCheck\bin\Debug\NumSeqCheck.exe
 F:\ТАТ\Homework_TAT\Homework_TAT\NumSeqCheck\bin\Debug\NumSeqCheck.pdb
 F:\ТАТ\Homework_TAT\Homework_TAT\NumSeqCheck\obj\Debug\NumSeqCheck.exe
 F:\ТАТ\Homework_TAT\Homework_TAT\NumSeqCheck\obj\Debug\NumSeqCheck.pdb
+F:\ТАТ\Homework_TAT\Homework_TAT\NumSeqCheck\obj\Debug\NumSeqCheck.csprojResolveAssemblyReference.cache

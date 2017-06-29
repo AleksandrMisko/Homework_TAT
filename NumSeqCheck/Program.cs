@@ -6,49 +6,56 @@ namespace NumSeqCheck
     {
         static void Main(string[] args)
         {
+            const string ENTER_LINE = "Enter size of the sequence = ";
+            const string ANSWER_YES = "This sequence is non-decreasing";
+            const string ANSWER_NO = "This sequence is not non-decreasing";
+            const string CHK_SIZE = "Are you seriously? Let's enter size of the SEQUENCE.";
+            const string INPUT = "Enter next element of the sequence = ";
+            const string EXCPT = "Error. Check input and try again.";
             bool value = true;
             while (value)
             {
                 try
                 {
-                    Console.Write("Enter size of the sequence = ");
+                    Console.Write(ENTER_LINE);
                     String sizeArr = Console.ReadLine();
                     int size = int.Parse(sizeArr);
                     int[] Aarray = new int[size];
                     string strAr;
+                    bool cheсk = true;
                     if (size <= 1)
                     {
-                        Console.WriteLine("Are you seriously? Let's enter size of the SEQUENCE.");
+                        Console.WriteLine(CHK_SIZE);
                         continue;
                     }
                     else
                     {
-                        for (int i = 0; i < size; i++)
+                        int i = 0;
+                        Console.Write(INPUT);
+                        strAr = Console.ReadLine();
+                        Aarray[i] = int.Parse(strAr);
+                        for (i = 1; i < size; i++)
                         {
-                            Console.Write("Enter " + (i + 1) + " element of the sequence = ");
+                            Console.Write(INPUT);
                             strAr = Console.ReadLine();
                             Aarray[i] = int.Parse(strAr);
-                        }
-                        bool cheсk = true;
-                        for (int i = 1; i < size; i++)
-                        {
-                            if (Aarray[i] >= Aarray[i - 1])
-                            {
-                                cheсk = true;
-                            }
                             if (Aarray[i] < Aarray[i - 1])
                             {
                                 cheсk = false;
                                 break;
                             }
+                            if (Aarray[i] >= Aarray[i - 1])
+                            {
+                                cheсk = true;
+                            }
                         }
                         if (cheсk == false)
                         {
-                            Console.WriteLine("This sequence is decreasing ");
+                            Console.WriteLine(ANSWER_NO);
                         }
                         else
                         {
-                            Console.WriteLine("This sequence is nondecreasing ");
+                            Console.WriteLine(ANSWER_YES);
                         }
                         Console.ReadKey();
                         value = false;
@@ -56,7 +63,7 @@ namespace NumSeqCheck
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("It is not a number. Try again.");
+                    Console.WriteLine(EXCPT);
                     continue;
                 }
             }
